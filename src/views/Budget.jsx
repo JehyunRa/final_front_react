@@ -20,7 +20,7 @@ import BudgetPlannerB from "components/Budget/BudgetPlannerB";
 import BudgetGoals from "components/Budget/BudgetGoals";
 import BudgetInputMenu from "components/Budget/BudgetInputMenu";
 import BudgetChartMenu from "components/Budget/BudgetChartMenu";
-import { budgetSetGraphData, findUserBudget, budgetCalc } from "helpers/budget";
+import { budgetSetGraphData, findUserBudget, budgetCalc } from "../helpers/budget";
 import useWindowDimensions from "helpers/windowDimensions";
 
 import MonthPicker from "components/MonthPicker/MonthPicker.jsx";
